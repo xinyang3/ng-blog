@@ -1,0 +1,41 @@
+.header-area {
+  width: 100%;
+}
+
+.header-area .header {
+  height: 80px;
+  width: 100%;
+  background-color: #1976d2;
+  color: #fff;
+  padding: 0 40px;
+}
+
+.header-area .header h2 {
+  margin: initial;
+  width: 200px;
+  height: 80px;
+  line-height: 80px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.header-area .header .nav-wrap {
+  width: calc(100% - 200px);
+}
+
+.header-area .header .nav {
+  position: relative;
+  margin: 15px;
+  padding: 13px;
+  cursor: pointer;
+}
+
+.header-area .header .nav:hover {
+  opacity: .7;
+}
+
+.header-area .header .nav img {
+  position: absolute;
+  left: -42%;
+  top: -1%;
+}
